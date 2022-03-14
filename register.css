@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+	margin :0;
+	padding:0;
+	font-family: 'Raleway', sans-serif;
+}
+	
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url("background.jpg");
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+		
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+
+ul li{
+	display: inline-block;
+
+}
+
+ul li a{
+	background-color: transparent;
+	text-decoration: none;
+	color :rgb(253, 253, 253);
+	padding: 5px 20px;
+	border: 1px transparent;
+	 
+}
+
+ul li a:hover{
+	background-color: rgb(176, 223, 223);
+	color:rgb(0, 0, 0);
+	transition: 0.6s ease;
+
+}
+
+
+ui li:active a{
+	background-color: aqua;
+	color: rgb(255, 255, 255);
+
+}
+
+.title{
+	position :absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+.logo img{
+	float: left;
+	width :150 px;
+	height: 100px;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+
+.button{
+	position :absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 2px solid white;
+	padding: 10px 30px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+
+}
+
+.btn:hover{
+	background-color: rgb(176, 223, 223);
+	color:rgb(0, 0, 0);
+	transition: 0.6s ease;
+}
+		
+
+
+
+
