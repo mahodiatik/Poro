@@ -5,20 +5,32 @@
 	padding:0;
 	font-family: 'Raleway', sans-serif;
 }
-	
 
-header{
+
+body{
 	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url("background.jpg");
 	height: 100%;
 	background-size: cover;
 	background-position: center;
+
+}
+	
+
+header{
+	height: 100px;
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
 }
 		
 ul{
 	float: right;
 	list-style-type: none;
-	margin-top: 25px;
-	margin-right: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
 
 ul li{
@@ -59,14 +71,11 @@ ui li:active a{
 
 .logo img{
 	float: left;
-	width :150 px;
+	width: 150px;
 	height: 100px;
 }
 
-.main{
-	max-width: 1200px;
-	margin: auto;
-}
+
 
 
 .button{
@@ -91,8 +100,6 @@ ui li:active a{
 }
 
 .loginbox{
-	width: 350px;
-	height: 480px; ;
 	background: rgba(11, 52, 88, 0.3);
 	color: #fff;
 	top: 50%;
@@ -145,16 +152,6 @@ h1{
 	border: 1px solid #fff;
 }
 
-
-
-span {
-	user-select: none;
-	margin: 5px;
-	color: rgb(172, 172, 172);
-	background: rgba(85, 81, 81, 0.637);
-	padding: 5px;
-	border-radius: 18px;
-  }
 
 
 .loginbox input[type="submit"]
