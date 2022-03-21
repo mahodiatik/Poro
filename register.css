@@ -75,19 +75,6 @@ ul li a:hover{
 
 
 
-.btn{
-	border: 2px solid white;
-	padding: 10px 30px;
-	color: rgb(255, 255, 255);
-	text-decoration: none;
-
-}
-
-.btn:hover{
-	background-color: rgba(212, 217, 230, 0.452);
-	color:rgb(0, 0, 0);
-	transition: 0.6s ease;
-}
 .container{
 	display: flex;
 	flex-direction: row;
@@ -100,7 +87,7 @@ ul li a:hover{
 	flex-direction: column;
 	justify-items: center;
 	justify-content: center;
-	max-width: fit-content;
+	max-width: 600px;
 	background: rgba(11, 52, 88, 0.3);
 	color: #fff;
 	position: relative;
@@ -114,8 +101,10 @@ ul li a:hover{
 h1{
 	margin: 0;
 	padding: 0 0 20px;
-	text-align: center;
-	font-size: 22px;
+	align-items: flex-start;
+	font-size: 25px;
+	font-weight: 500;
+	position: relative;
 }
 
 .regbox p{
@@ -179,10 +168,30 @@ h1{
 	justify-content: space-around;
 }
 
+
 .regbox a:hover
 {
 	color: #ffc107;
 }
 
 
+  .regbox form .user-details{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  form .user-details .input-box{
+	margin-bottom: 15px;
+	width: calc(100% / 2 - 20px);
+  }
+
+  .user-details .input-box input{
+	height: 45px;
+	width: 100%;
+	outline: none;
+	padding-left: 15px;
+  }
+  
+  
+  
 
