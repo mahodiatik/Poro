@@ -14,8 +14,6 @@ body{
 	background-position: center;
 
 }
-
-
 	
 
 header{
@@ -25,7 +23,6 @@ header{
 	display: flex;
 	justify-content: space-between;
 }
-
 		
 ul{
 	float: right;
@@ -67,6 +64,7 @@ ul li a:hover{
 }
 
 
+
 .logo img{
 	float: left;
 	width: 150px;
@@ -76,12 +74,6 @@ ul li a:hover{
 
 
 
-.button{
-	position :absolute;
-	top: 60%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
 
 .btn{
 	border: 2px solid white;
@@ -96,14 +88,22 @@ ul li a:hover{
 	color:rgb(0, 0, 0);
 	transition: 0.6s ease;
 }
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-items: center;
+	justify-content: center;
+}
 
 .regbox{
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	justify-content: center;
+	max-width: fit-content;
 	background: rgba(11, 52, 88, 0.3);
 	color: #fff;
-	top: 50%;
-	left: 50%;
-	position: absolute;
-	transform: translate(-50%,-50%);
+	position: relative;
 	box-sizing: border-box;
 	padding: 70px 30px;
 	align-items: center;
