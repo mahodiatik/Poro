@@ -47,13 +47,15 @@ ul li a:hover{
 	background-color: rgb(176, 223, 223);
 	color:rgb(0, 0, 0);
 	transition: 0.6s ease;
-
+	border-radius: 15px;
 }
 
 
-ui li:active a{
-	background-color: aqua;
-	color: rgb(255, 255, 255);
+.active a{
+	background-color: rgb(176, 223, 223);
+	color:rgb(0, 0, 0);
+	transition: 0.6s ease;
+	border-radius: 15px;
 
 }
 
@@ -116,6 +118,3 @@ ui li:active a{
 	justify-content: center;
 }
 
-
-
-https://vidyasheela.com/post/how-to-make-a-responsive-transparent-login-page-in-html-and-css
